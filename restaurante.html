@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YH COCINA ARTESANAL</title>
+    <link rel="stylesheet" href="restaurante.css">
+</head>
+<body>
+    
+    <header>
+
+        <img id="logo" src="yah cook1.png" alt="YH COCINA ARTESANAL">
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="inicio">
+        <h1>Bienvenidos a YH COCINA ARTESANAL</h1>
+        <p>comida artesanal.</p>
+    </section>
+
+    
+    <section id="menu">
+        <h2>Menú</h2>
+        <div class="categoria">
+            <h3>Entradas</h3>
+            <ul>
+                <li>Choriburguer - $25.000 COP</li>
+                <li>Choriperro - $22.000 COP</li>
+                <li>Choripan - $25.000 COP</li>
+                <LI>Choriarepa- $18.000 COP</LI>
+            </ul>
+        </div>
+
+        <div class="categoria">
+            <h3>Adicionales</h3>
+            <ul>
+                <li>Papa a la francesa $6.000 COP</li>
+                <li>Papa criolla - $8.000 COP</li>
+                <li>Casquitos de yuca $5.0000</li>
+            </ul>
+        </div>
+
+        <div class="categoria">
+            <h3>Bebidas</h3>
+            <ul>
+                <li>Granizada de limon-$9.000 COP</li>
+                <li>Granizada de cereza-$8.000 COP</li>
+                <li>Coca-cola-$7.000 COP</li>
+                <li>Productos postobon-$8.000COP</li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section id="nosotros">
+        <h2>Acerca de Nosotros</h2>
+        <p>En YH COCINA ARTESANAL, nos enorgullece ofrecer una experiencia gastronómica única. Nuestro equipo de chefs expertos prepara cada plato con los mejores ingredientes, garantizando frescura y sabor en cada bocado.</p>
+    </section>
+
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2025 YH COCINA ARTESANAL | Dirección: CALLE 152A N22-19</p>
+        <p>Síguenos en nuestras redes sociales: Facebook | Instagram | Twitter</p>
+    </footer>
+</body>
+</html>

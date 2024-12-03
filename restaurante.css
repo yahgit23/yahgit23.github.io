@@ -1,0 +1,36 @@
+body{
+background-image: url();
+background-attachment: fixed;
+background-repeat:no-repeat;
+background-color: rgb(95, 40, 40);
+}
+
+p{
+color:rgb(189, 192, 16);
+font-size: large;
+font-family: Arial, Helvetica, sans-serif
+}
+
+h1,h2,h3 {
+color: rgb(189, 192, 16);
+}
+
+li{
+color: rgb(247, 235, 235);    
+}
+
+form{
+color: rgb(248, 242, 242);
+}
+
+header {
+    background-color: #1d6872;
+    padding: 10px;
+    text-align: center;
+}
+
+#logo{
+    max-width: 200px;
+    height: auto;
+}
+
