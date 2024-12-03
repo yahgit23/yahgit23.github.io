@@ -1,0 +1,36 @@
+
+
+style
+    .stop1 {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        border: 1px solid #3011e2;
+        text-align: left;
+    }
+    th {
+        background-color: #200c8f;
+
+    }
+
+
+
+style
+
+.stop{
+
+    width: 100%;
+border-collapse: collapse;
+}
+
+th,td{
+padding: 10px;
+border: 1px solid rgb(196, 6, 6);
+text-align: left;
+}
+
+th{
+background-color: #230ab4;
+}
